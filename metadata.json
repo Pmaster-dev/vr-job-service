@@ -1,0 +1,6 @@
+{
+  "name": "VR4DEAF",
+  "description": "VR4DEAF.org — Unified Vocational Rehabilitation, VURA Knowledge Engine, Job Magician & Ecosystem Ops",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,11 +1,30 @@
-<div align="center">
+# Job-Magician (Android Edition)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+**Deaf-First Vocational Rehabilitation and Workforce Development Mobile Application**
 
-  <h1>Built with AI Studio</h2>
+Part of the [360 Magicians](https://github.com/360magicians) ecosystem and [VR4Deaf](https://github.com/pinkycollie/vr4deaf) initiative.
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Overview
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+Job-Magician is a comprehensive vocational rehabilitation and workforce development Android application designed with accessibility and inclusion at its core. Built natively using **Kotlin**, **Jetpack Compose**, and **Material Design 3**, this mobile app integrates with Texas Workforce Solutions to provide:
 
-</div>
+- **Deaf-First Architecture**: Native ASL video training guides, Deaf-first quick toggles, and direct VRS / ASL interpreter support requests.
+- **Integrated Workforce Solutions Platform**: Coordinated service management linking Texas Workforce Solutions and 360 Magicians resources.
+- **Job Specialist 7-Step Cycle**: Interactive step-by-step VR workflow from intake and assessment to placement tracking.
+- **Client Services Dashboard**: Live progress indicators, skills assessment reports, personalized training course tracking, and job application management.
+- **Job Opportunities & Resources**: Filterable WIOA job matches, ADA accommodation guides, and state VR documentation.
+
+## Tech Stack & Architecture
+
+- **Language**: Kotlin
+- **UI Framework**: Jetpack Compose (Material Design 3)
+- **Architecture**: MVVM with `ViewModel` and `StateFlow` / `collectAsStateWithLifecycle`
+- **Build System**: Gradle (Kotlin DSL `.gradle.kts`)
+- **Compatibility**: Android SDK 24+ (Android 7.0+)
+- **Design & Insets**: Full edge-to-edge layout support with `WindowInsets.safeDrawing`
+
+## Compliance & Standards
+
+- **Workforce Innovation and Opportunity Act (WIOA)**: Federal workforce development rules
+- **Texas Workforce Commission (TWC)**: Vocational rehabilitation standards
+- **Americans with Disabilities Act (ADA)** & **Section 508**: Accessibility and accommodation rules
